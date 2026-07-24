@@ -95,8 +95,8 @@ No — the extension does not use remote code. All code is bundled in the packag
 ## Pre-submit checklist
 
 - [ ] Chrome: account verified + 2-Step Verification enabled
-- [ ] Upload `dropweb-proxy-0.1.2-chrome.zip`
+- [ ] Upload `dropweb-proxy-0.1.3-chrome.zip`
 - [ ] Fill Store Listing (name, description, icon 128×128, screenshots 1280×800, category)
 - [ ] Fill Privacy tab (single purpose, 4 permission justifications, data usage, privacy policy URL)
-- [ ] Firefox: upload `dropweb-proxy-0.1.2-firefox.zip` + attach `-sources.zip`
+- [ ] Firefox: upload `dropweb-proxy-0.1.3-firefox.zip` + attach `-sources.zip`
 - [ ] Expect longer review for the `proxy` permission; respond promptly to reviewer questions
