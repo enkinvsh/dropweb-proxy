@@ -1,4 +1,8 @@
 {
+  "extension_name": { "message": "Dropweb Proxy" },
+  "extension_description": {
+    "message": "Переключатель браузерного прокси (HTTP/SOCKS5) одной кнопкой с автозащитой от утечки WebRTC. Без сбора данных."
+  },
   "app_name": { "message": "dropweb proxy" },
   "popup_settings_label": { "message": "Настройки" },
   "options_title": { "message": "Настройки прокси" },

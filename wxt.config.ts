@@ -24,6 +24,8 @@ export default defineConfig({
     },
   },
   manifest: ({ browser }) => ({
+    name: "__MSG_extension_name__",
+    description: "__MSG_extension_description__",
     permissions: ["alarms", "privacy", "proxy", "storage"],
     default_locale: "en",
     icons: {
