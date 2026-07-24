@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropweb Proxy — Privacy Policy</title>
+    <style>
+      :root {
+        --void: #030305;
+        --card: #0a1710;
+        --border: #08431f;
+        --text: #e2e2e2;
+        --muted: #9aa0aa;
+        --accent: #00de52;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--void);
+        color: var(--text);
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.6;
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 24px 80px;
+      }
+      h1 { font-size: 30px; margin: 0 0 4px; letter-spacing: -0.5px; }
+      h2 { font-size: 20px; margin: 40px 0 10px; color: var(--accent); }
+      h3 { font-size: 15px; margin: 22px 0 6px; }
+      p, li { color: var(--text); }
+      .muted { color: var(--muted); }
+      .eyebrow { color: var(--accent); font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; font-size: 12px; }
+      code { background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 1px 6px; color: var(--accent); font-size: 0.9em; }
+      a { color: var(--accent); }
+      hr { border: 0; border-top: 1px solid var(--border); margin: 48px 0; }
+      .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 16px 20px; margin: 18px 0; }
+      ul { padding-left: 20px; }
+      footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Dropweb Proxy</p>
+      <h1>Privacy Policy</h1>
+      <p class="muted">Last updated: 24 July 2026</p>
+
+      <div class="card">
+        <strong>Short version:</strong> Dropweb Proxy does not collect, store, transmit,
+        or sell any personal data. It has no servers, no analytics, and no tracking.
+        Everything you configure stays on your device.
+      </div>
+
+      <h2>What data we collect</h2>
+      <p><strong>None.</strong> Dropweb Proxy does not collect or transmit any personal or
+        usage data. There are no analytics, no telemetry, no advertising, and no remote
+        servers operated by the extension.</p>
+
+      <h2>What is stored, and where</h2>
+      <p>The only information the extension stores is your local proxy profile — proxy type
+        (HTTP or SOCKS5), host, port, bypass list, and the on/off state. This is saved using
+        the browser's own <code>storage</code> API on your device and is never sent anywhere.</p>
+
+      <h2>Permissions and why they are needed</h2>
+      <ul>
+        <li><code>proxy</code> — to apply your configured proxy to the browser's network
+          requests. This is the core function of the extension.</li>
+        <li><code>storage</code> — to save your proxy profile and on/off state locally.</li>
+        <li><code>privacy</code> — to set the browser's WebRTC IP-handling policy so your real
+          IP address cannot leak outside the proxy while it is on.</li>
+        <li><code>alarms</code> — to schedule a lightweight, local reachability check that only
+          updates the toolbar icon. It sends no data off the device.</li>
+      </ul>
+      <p>The extension requests no host permissions and has no access to the content of the
+        web pages you visit.</p>
+
+      <h2>Traffic routing</h2>
+      <p>When enabled, the extension tells the browser to route requests through the proxy
+        endpoint <em>you</em> configure (by default a local address such as
+        <code>127.0.0.1:7890</code>). The extension itself does not operate that proxy, does
+        not inspect your traffic, and keeps no logs.</p>
+
+      <h2>Third parties</h2>
+      <p>No data is shared with any third party, because no data is collected.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>If this policy changes, the updated version will be published at this URL with a new
+        "last updated" date.</p>
+
+      <h2>Contact</h2>
+      <p>Questions? Open an issue at
+        <a href="https://github.com/enkinvsh/dropweb-proxy">github.com/enkinvsh/dropweb-proxy</a>.</p>
+
+      <hr />
+
+      <p class="eyebrow">Dropweb Proxy</p>
+      <h1>Политика конфиденциальности</h1>
+      <p class="muted">Обновлено: 24 июля 2026</p>
+
+      <div class="card">
+        <strong>Коротко:</strong> Dropweb Proxy не собирает, не хранит на серверах, не передаёт
+        и не продаёт никакие персональные данные. Нет серверов, аналитики и трекинга. Все
+        настройки остаются на вашем устройстве.
+      </div>
+
+      <h2>Какие данные мы собираем</h2>
+      <p><strong>Никакие.</strong> Расширение не собирает и не передаёт персональные данные или
+        данные об использовании. Нет аналитики, телеметрии, рекламы и удалённых серверов.</p>
+
+      <h2>Что хранится и где</h2>
+      <p>Единственное, что хранит расширение — это ваш локальный профиль прокси (тип HTTP или
+        SOCKS5, хост, порт, список исключений) и состояние вкл/выкл. Это сохраняется через
+        встроенный API <code>storage</code> браузера на вашем устройстве и никуда не отправляется.</p>
+
+      <h2>Разрешения и зачем они нужны</h2>
+      <ul>
+        <li><code>proxy</code> — применять выбранный прокси к сетевым запросам браузера. Это
+          основная функция расширения.</li>
+        <li><code>storage</code> — хранить профиль прокси и состояние вкл/выкл локально.</li>
+        <li><code>privacy</code> — управлять политикой WebRTC, чтобы ваш реальный IP не утекал в
+          обход прокси, пока он включён.</li>
+        <li><code>alarms</code> — запускать лёгкую локальную проверку доступности, которая
+          обновляет только иконку и не отправляет данные с устройства.</li>
+      </ul>
+      <p>Расширение не запрашивает доступ к сайтам (host permissions) и не имеет доступа к
+        содержимому посещаемых страниц.</p>
+
+      <h2>Маршрутизация трафика</h2>
+      <p>Во включённом состоянии расширение указывает браузеру направлять запросы через прокси,
+        который настраиваете <em>вы</em> (по умолчанию локальный адрес вида
+        <code>127.0.0.1:7890</code>). Само расширение этот прокси не обслуживает, трафик не
+        анализирует и логов не ведёт.</p>
+
+      <h2>Третьи стороны</h2>
+      <p>Никакие данные не передаются третьим сторонам, потому что данные не собираются.</p>
+
+      <h2>Контакты</h2>
+      <p>Вопросы — в issues:
+        <a href="https://github.com/enkinvsh/dropweb-proxy">github.com/enkinvsh/dropweb-proxy</a>.</p>
+
+      <footer>© 2026 dropweb · MIT License</footer>
+    </main>
+  </body>
+</html>
