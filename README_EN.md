@@ -74,6 +74,8 @@ The extension collects and transmits nothing — all settings are stored locally
 
 **Fail-closed** by design: "on" means the settings were applied, not that the endpoint is reachable. The reachability check is advisory and never gates enable/disable.
 
+Full [privacy policy](https://enkinvsh.github.io/dropweb-proxy/privacy-policy.html) — the extension collects no data.
+
 ---
 
 ## <img src="docs/icons/code.svg" width="24" alt="" /> Build from source
