@@ -1,0 +1,64 @@
+{
+  "app_name": { "message": "dropweb proxy" },
+  "popup_settings_label": { "message": "Settings" },
+  "options_title": { "message": "Proxy settings" },
+  "field_type_label": { "message": "Proxy type" },
+  "field_host_label": { "message": "Host" },
+  "field_port_label": { "message": "Port" },
+  "field_bypass_label": { "message": "Bypass list" },
+  "field_bypass_hint": { "message": "Enter one host per line." },
+  "proxy_type_http": { "message": "HTTP" },
+  "proxy_type_socks5": { "message": "SOCKS5" },
+  "action_enable": { "message": "Enable" },
+  "action_disable": { "message": "Disable" },
+  "action_open_settings": { "message": "Settings" },
+  "action_save": { "message": "Save" },
+  "action_cancel": { "message": "Cancel" },
+  "action_applying": { "message": "Applying..." },
+  "action_saving": { "message": "Saving..." },
+  "action_enable_title": { "message": "Apply the saved proxy settings" },
+  "action_disable_title": { "message": "Release control of browser proxy settings" },
+  "action_open_settings_title": { "message": "Open proxy settings" },
+  "action_save_title": { "message": "Save proxy settings" },
+  "action_cancel_title": { "message": "Restore the saved values" },
+  "save_success": { "message": "Settings saved." },
+  "status_off": { "message": "Off" },
+  "status_applying": { "message": "Applying settings" },
+  "status_on": { "message": "Proxy settings applied" },
+  "webrtc_status_protected": { "message": "WebRTC protection: on" },
+  "webrtc_status_conflict": {
+    "message": "WebRTC protection: controlled by another extension"
+  },
+  "webrtc_status_unprotected": { "message": "WebRTC protection: could not be enabled" },
+  "status_conflict_controlled_by_other": { "message": "Managed by another extension" },
+  "status_conflict_not_controllable": { "message": "Browser policy prevents proxy control" },
+  "status_error_proxy_api": { "message": "Could not apply proxy settings" },
+  "status_error_storage": { "message": "Could not save proxy settings" },
+  "status_error_invalid_message": { "message": "The extension received an invalid request" },
+  "status_error_firefox_private_access_required": {
+    "message": "Allow private-window access in Firefox to apply proxy settings"
+  },
+  "aria_status": { "message": "Proxy status" },
+  "aria_status_indicator": { "message": "Proxy status indicator" },
+  "aria_system_message": { "message": "Extension message" },
+  "error_type_invalid": { "message": "Select HTTP or SOCKS5." },
+  "error_host_required": { "message": "Enter a host." },
+  "error_host_invalid": { "message": "Enter a host without a scheme, path, or spaces." },
+  "error_port_invalid": { "message": "Enter a whole-number port from 1 to 65535." },
+  "error_bypass_invalid": { "message": "Enter one bypass host per line without commas." },
+  "browser_action_title_off": { "message": "dropweb proxy: off" },
+  "browser_action_title_applying": { "message": "dropweb proxy: applying settings" },
+  "browser_action_title_on": { "message": "dropweb proxy: settings applied" },
+  "browser_action_title_webrtc_leak": { "message": "dropweb proxy — WebRTC leak risk" },
+  "browser_action_title_conflict": { "message": "dropweb proxy: proxy control conflict" },
+  "browser_action_title_error": { "message": "dropweb proxy: action failed" },
+  "browser_action_title_unreachable": {
+    "message": "dropweb proxy — on, the dropweb app is not responding"
+  },
+  "status_unreachable_hint": {
+    "message": "The dropweb app is not running. Open dropweb — traffic stays blocked until it is back."
+  },
+  "status_unreachable_hint_off": {
+    "message": "The dropweb app is not running. Start it before enabling."
+  }
+}

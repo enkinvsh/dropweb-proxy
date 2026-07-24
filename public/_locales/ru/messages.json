@@ -1,0 +1,66 @@
+{
+  "app_name": { "message": "dropweb proxy" },
+  "popup_settings_label": { "message": "Настройки" },
+  "options_title": { "message": "Настройки прокси" },
+  "field_type_label": { "message": "Тип прокси" },
+  "field_host_label": { "message": "Хост" },
+  "field_port_label": { "message": "Порт" },
+  "field_bypass_label": { "message": "Список исключений" },
+  "field_bypass_hint": { "message": "Укажите по одному хосту в строке." },
+  "proxy_type_http": { "message": "HTTP" },
+  "proxy_type_socks5": { "message": "SOCKS5" },
+  "action_enable": { "message": "Включить" },
+  "action_disable": { "message": "Выключить" },
+  "action_open_settings": { "message": "Настройки" },
+  "action_save": { "message": "Сохранить" },
+  "action_cancel": { "message": "Отменить" },
+  "action_applying": { "message": "Применяем..." },
+  "action_saving": { "message": "Сохраняем..." },
+  "action_enable_title": { "message": "Применить сохраненные настройки прокси" },
+  "action_disable_title": { "message": "Освободить настройки прокси браузера" },
+  "action_open_settings_title": { "message": "Открыть настройки прокси" },
+  "action_save_title": { "message": "Сохранить настройки прокси" },
+  "action_cancel_title": { "message": "Восстановить сохраненные значения" },
+  "save_success": { "message": "Настройки сохранены." },
+  "status_off": { "message": "Выключено" },
+  "status_applying": { "message": "Применяем настройки" },
+  "status_on": { "message": "Настройки прокси применены" },
+  "webrtc_status_protected": { "message": "Защита WebRTC: активна" },
+  "webrtc_status_conflict": {
+    "message": "Защита WebRTC: управляется другим расширением"
+  },
+  "webrtc_status_unprotected": { "message": "Защита WebRTC: не удалось включить" },
+  "status_conflict_controlled_by_other": { "message": "Управляется другим расширением" },
+  "status_conflict_not_controllable": {
+    "message": "Политика браузера запрещает управление прокси"
+  },
+  "status_error_proxy_api": { "message": "Не удалось применить настройки прокси" },
+  "status_error_storage": { "message": "Не удалось сохранить настройки прокси" },
+  "status_error_invalid_message": { "message": "Расширение получило некорректный запрос" },
+  "status_error_firefox_private_access_required": {
+    "message": "Разрешите доступ к приватным окнам Firefox, чтобы применить настройки прокси"
+  },
+  "aria_status": { "message": "Статус прокси" },
+  "aria_status_indicator": { "message": "Индикатор статуса прокси" },
+  "aria_system_message": { "message": "Сообщение расширения" },
+  "error_type_invalid": { "message": "Выберите HTTP или SOCKS5." },
+  "error_host_required": { "message": "Укажите хост." },
+  "error_host_invalid": { "message": "Укажите хост без схемы, пути и пробелов." },
+  "error_port_invalid": { "message": "Укажите целый порт от 1 до 65535." },
+  "error_bypass_invalid": { "message": "Укажите по одному хосту в строке без запятых." },
+  "browser_action_title_off": { "message": "dropweb proxy: выключено" },
+  "browser_action_title_applying": { "message": "dropweb proxy: применяем настройки" },
+  "browser_action_title_on": { "message": "dropweb proxy: настройки применены" },
+  "browser_action_title_webrtc_leak": { "message": "dropweb proxy — риск утечки WebRTC" },
+  "browser_action_title_conflict": { "message": "dropweb proxy: конфликт управления прокси" },
+  "browser_action_title_error": { "message": "dropweb proxy: действие не выполнено" },
+  "browser_action_title_unreachable": {
+    "message": "dropweb proxy — включено, приложение dropweb не отвечает"
+  },
+  "status_unreachable_hint": {
+    "message": "Приложение dropweb не запущено. Откройте dropweb — до его запуска трафик заблокирован."
+  },
+  "status_unreachable_hint_off": {
+    "message": "Приложение dropweb не запущено. Запустите его перед включением."
+  }
+}

@@ -1,0 +1,48 @@
+@import url("./fonts.css");
+
+:root {
+  color-scheme: dark;
+  --color-void: #030305;
+  --color-card: #0a1710;
+  --color-card-border: #08431f;
+  --color-card-divider: #19251e;
+  --color-input-bg: #071009;
+  --color-text: #e2e2e2;
+  --color-text-muted: #9aa0aa;
+  --color-accent: #00de52;
+  --color-accent-soft: #2bff7a;
+  --color-accent-deep: #009938;
+  --color-warning: #f59e0b;
+  --color-warning-deep: #b45309;
+  --color-error: #f0625d;
+  --color-focus: #38bdf8;
+  --gradient-cta: linear-gradient(90deg, #006d5b 0%, #007a2e 100%);
+  --color-cta-border: #00813d;
+  --color-cta-inset: #0a5d4f;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 28px;
+  --radius-brand: 26px;
+  --font-body: "Onest", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-heading: "Unbounded", "Onest", system-ui, sans-serif;
+  --font-size-body: 14px;
+  --line-height-body: 22px;
+  --font-size-caption: 12px;
+  --line-height-caption: 18px;
+  --popup-width: 280px;
+  --popup-height: 280px;
+  --power-size: 160px;
+  --options-max-width: 600px;
+  --control-min-height: 44px;
+  --focus-width: 2px;
+  --focus-offset: 3px;
+  --disabled-opacity: 0.55;
+  --motion-press: 100ms;
+  --motion-fast: 180ms;
+  --motion-bloom: 420ms;
+  --motion-settle: 360ms;
+  --ease-out-cubic: cubic-bezier(0.33, 1, 0.68, 1);
+}

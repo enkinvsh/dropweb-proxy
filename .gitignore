@@ -1,0 +1,11 @@
+node_modules/
+.output/
+.wxt/
+.playwright-mcp/
+dist/
+coverage/
+test-results/
+.codegraph
+.omo/
+*.log
+.DS_Store
