@@ -46,7 +46,8 @@ export default defineConfig({
       ? {
           browser_specific_settings: {
             gecko: {
-              strict_min_version: "91.1.0",
+              id: "dropweb-proxy@enkinvsh.github.io",
+              strict_min_version: "109.0",
             },
           },
         }
