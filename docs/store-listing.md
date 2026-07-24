@@ -100,3 +100,21 @@ No — the extension does not use remote code. All code is bundled in the packag
 - [ ] Fill Privacy tab (single purpose, 4 permission justifications, data usage, privacy policy URL)
 - [ ] Firefox: upload `dropweb-proxy-0.1.3-firefox.zip` + attach `-sources.zip`
 - [ ] Expect longer review for the `proxy` permission; respond promptly to reviewer questions
+
+---
+
+## Notes to Reviewer (AMO / Chrome "Test instructions")
+
+No account or login is required to test the extension.
+
+What it does: Dropweb Proxy turns the browser's proxy on and off using one local, user-configured profile (HTTP or SOCKS5), and enables WebRTC leak protection while it is on.
+
+How to test:
+1. Open the toolbar popup and click the power button. This writes the configured proxy (default HTTP 127.0.0.1:7890) to the browser's network settings — verify under Settings → Network Settings, or `network.proxy.*` in `about:config` (Firefox) / `chrome://net-internals/#proxy` (Chrome).
+2. "On" means the settings were applied (fail-closed). It does NOT require the proxy endpoint to be reachable, so no running proxy server is needed to observe the behavior.
+3. Right-click the icon → Options to edit the profile (type, host, port, bypass list). Saving while enabled re-applies immediately.
+4. WebRTC protection: while on, the WebRTC IP-handling policy is set (Firefox disables WebRTC; Chrome forces it through the proxy).
+
+Data collection: none. All settings are stored locally via the storage API; nothing is transmitted.
+
+Build (from the attached sources zip): see BUILD.md. Requires Bun 1.3.14 — `bun install --frozen-lockfile && bun run zip:firefox` reproduces the uploaded package. The default AMO reviewer environment uses npm/node, so please install Bun first.
